@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B762408A08F77A97261D3ECA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893A8412C6BF137F4CBC7A52 /* AppKit.framework */; };
+		BDAA66E6F02B5DF3DD9FA526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B74DEAEE9148B1BB3A914EE /* Foundation.framework */; };
+		D6904E221DA4C23B00A0F882 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6904E211DA4C23B00A0F882 /* OpenGL.framework */; };
+		D6904E241DA4C24700A0F882 /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6904E231DA4C24700A0F882 /* GLUI.framework */; };
+		D6904E3C1DA4C4C700A0F882 /* mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6904E3B1DA4C4C700A0F882 /* mesh.cpp */; };
+		D6B917C41DA49E5200844C0D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B917C31DA49E5200844C0D /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6904E481DA4C66F00A0F882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6904E441DA4C66F00A0F882 /* nfd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4E280AA733A1E674D60FB8E7;
+			remoteInfo = nfd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B74DEAEE9148B1BB3A914EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60AA47EAC5D73B17EDD76E2A /* mesh_view */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mesh_view; sourceTree = BUILT_PRODUCTS_DIR; };
+		893A8412C6BF137F4CBC7A52 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D6904E211DA4C23B00A0F882 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		D6904E231DA4C24700A0F882 /* GLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUI.framework; path = ../../../../../../../Library/Frameworks/GLUI.framework; sourceTree = "<group>"; };
+		D6904E3B1DA4C4C700A0F882 /* mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mesh.cpp; path = ../../test/mesh.cpp; sourceTree = "<group>"; };
+		D6904E441DA4C66F00A0F882 /* nfd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = nfd.xcodeproj; sourceTree = "<group>"; };
+		D6B917C31DA49E5200844C0D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3B0D85A6B113D0705C4DE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6904E241DA4C24700A0F882 /* GLUI.framework in Frameworks */,
+				D6904E221DA4C23B00A0F882 /* OpenGL.framework in Frameworks */,
+				D6B917C41DA49E5200844C0D /* GLUT.framework in Frameworks */,
+				BDAA66E6F02B5DF3DD9FA526 /* Foundation.framework in Frameworks */,
+				B762408A08F77A97261D3ECA /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D968EAAA9FA9897E0E0A4EA /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				D6904E441DA4C66F00A0F882 /* nfd.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		A6C936B4B32D40A1EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60AA47EAC5D73B17EDD76E2A /* mesh_view */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF767817185A0AEFA200DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6904E231DA4C24700A0F882 /* GLUI.framework */,
+				D6904E211DA4C23B00A0F882 /* OpenGL.framework */,
+				D6B917C31DA49E5200844C0D /* GLUT.framework */,
+				4B74DEAEE9148B1BB3A914EE /* Foundation.framework */,
+				893A8412C6BF137F4CBC7A52 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6904E451DA4C66F00A0F882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6904E491DA4C66F00A0F882 /* libnfd_d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6B9180F1DA4A52E00844C0D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D6904E3B1DA4C4C700A0F882 /* mesh.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		FDE62101BB381E4E22B0AF41 /* test_opendialog */ = {
+			isa = PBXGroup;
+			children = (
+				D6B9180F1DA4A52E00844C0D /* Source */,
+				BBF767817185A0AEFA200DC1 /* Frameworks */,
+				A6C936B4B32D40A1EA134CF4 /* Products */,
+				9D968EAAA9FA9897E0E0A4EA /* Projects */,
+			);
+			name = test_opendialog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F3CA90BA888C1D94F528D0 /* mesh_view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1EC20B9594C8566F40026F9 /* Build configuration list for PBXNativeTarget "mesh_view" */;
+			buildPhases = (
+				439858FADAF8BDA775AC5F3A /* Resources */,
+				AD45725144A5D6FEDF597891 /* Sources */,
+				D3B0D85A6B113D0705C4DE9A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mesh_view;
+			productInstallPath = "$(HOME)/bin";
+			productName = test_opendialog;
+			productReference = 60AA47EAC5D73B17EDD76E2A /* mesh_view */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "mesh_view" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDE62101BB381E4E22B0AF41 /* test_opendialog */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D6904E451DA4C66F00A0F882 /* Products */;
+					ProjectRef = D6904E441DA4C66F00A0F882 /* nfd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A7F3CA90BA888C1D94F528D0 /* mesh_view */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D6904E491DA4C66F00A0F882 /* libnfd_d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libnfd_d.a;
+			remoteRef = D6904E481DA4C66F00A0F882 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439858FADAF8BDA775AC5F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD45725144A5D6FEDF597891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6904E3C1DA4C4C700A0F882 /* mesh.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		188342B0098F869D1FB1D8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = ../lib/Debug/x86;
+				OBJROOT = ../obj/x86/Debug/test_opendialog;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lnfd_d";
+				SYMROOT = ../bin;
+				USER_HEADER_SEARCH_PATHS = ../../src/include;
+			};
+			name = Debug;
+		};
+		2B21E9B968A67926EEA3DFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = mesh_view;
+			};
+			name = Release;
+		};
+		3AC688EA9FF37C17C7F3AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = ../lib/Release/x86;
+				OBJROOT = ../obj/x86/Release/test_opendialog;
+				ONLY_ACTIVE_ARCH = NO;
+				SYMROOT = ../bin;
+				USER_HEADER_SEARCH_PATHS = ../../src/include;
+			};
+			name = Release;
+		};
+		888E12FFF2DDE32C8A9D793F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../bin;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = mesh_view;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "mesh_view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC688EA9FF37C17C7F3AF2A /* Release */,
+				3AC688EA9FF37C17C7F3AF2A /* Release */,
+				188342B0098F869D1FB1D8F0 /* Debug */,
+				188342B0098F869D1FB1D8F0 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1EC20B9594C8566F40026F9 /* Build configuration list for PBXNativeTarget "mesh_view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B21E9B968A67926EEA3DFF9 /* Release */,
+				2B21E9B968A67926EEA3DFF9 /* Release */,
+				888E12FFF2DDE32C8A9D793F /* Debug */,
+				888E12FFF2DDE32C8A9D793F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
