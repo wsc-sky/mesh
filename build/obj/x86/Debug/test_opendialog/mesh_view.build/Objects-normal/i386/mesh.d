@@ -1,5 +1,4 @@
-dependencies: \
-  /Users/weisicong/Desktop/OpenGL\ test/mesh_project/test/mesh.cpp \
+dependencies: /Users/weisicong/Desktop/others/mesh/test/mesh.cpp \
   ../../src/include/nfd.h \
   /Library/Frameworks/GLUI.framework/Headers/glui.h \
   ../../src/include/glm/glm.hpp ../../src/include/glm/core/_fixes.hpp \
