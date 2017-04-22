@@ -1,0 +1,5 @@
+//leap motion guideline
+
+1. Start gesture control and import a defined 3D modelGesture ----- Right hand finger: anticlockwise circle2. Close gesture controlGesture ----- Right hand finger: clockwise circle3. Model translationGesture ----- Right hand: translation4. Model rotationGesture ----- Right hand: rotation5. Model scaleGesture ----- Right hand: fold/unfold6. Disable right hand’s motion so that user can adjust right handGesture ----- Put/use two hands to stop right hand’s motion7. Light intensity control (global light, ambient light, diffuse light, specular light )Gesture ----- Left hand: fold/unfold8. Different lights switchGesture ----- Put both hand, anticlockwise circle: next operation, clockwise circle: prev operation
+
+9. you can check the state of gesture controller through the reminder at upper left corner
